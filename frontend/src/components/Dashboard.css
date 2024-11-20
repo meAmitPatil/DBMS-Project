@@ -1,0 +1,37 @@
+.dashboard {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  margin: 20px;
+}
+
+.table-container {
+  margin-bottom: 30px;
+}
+
+table {
+  margin: 0 auto;
+  border-collapse: collapse;
+  width: 80%;
+  border: 1px solid #ddd;
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+th {
+  background-color: #1e90ff;
+  color: white;
+}
+
+tr:nth-child(even) {
+  background-color: #f8f9fa;
+}
+
+.error {
+  color: #ff6347;
+  font-weight: bold;
+}
