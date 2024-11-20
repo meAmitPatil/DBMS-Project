@@ -10,7 +10,6 @@ logs/
 *.log.*
 
 # Environment variables
-.env
 
 # Database files
 *.sqlite
